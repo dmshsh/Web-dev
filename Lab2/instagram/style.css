@@ -1,0 +1,75 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#fafafa}
+img{
+    width: 720px;
+    height: 480px;
+}
+.wrap{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.layout{
+  display:flex;
+  gap:40px;
+  align-items:center;
+}
+
+.mock{
+  width:320px;height:520px;
+  border:1px solid #ddd;
+  border-radius:26px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#999;
+  background:#fff;
+}
+
+.panel{display:flex;flex-direction:column;gap:12px;align-items:center}
+
+.card{
+  width:360px;
+  background:#fff;
+  border:1px solid #ddd;
+  padding:20px;
+  text-align:center;
+}
+
+.ig{margin:0 0 14px;font-size:40px;font-family:cursive}
+form{display:flex;flex-direction:column;gap:10px}
+
+input{
+  height:40px;
+  border:1px solid #ddd;
+  padding:0 10px;
+  background:#fafafa;
+}
+
+.btn{
+  height:34px;
+  border:none;
+  border-radius:8px;
+  background:#0095f6;
+  color:#fff;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.or{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;color:#999;font-weight:700;font-size:12px;margin:8px 0}
+.or span{height:1px;background:#ddd}
+
+.fb{color:#385185;text-decoration:none;font-weight:700}
+.forgot{color:#999;text-decoration:none;font-size:12px;margin-top:6px}
+.small{font-size:14px}
+.small a{color:#0095f6;text-decoration:none;font-weight:700}
+
+.sr{position:absolute;left:-9999px}
+
+@media(max-width:900px){
+  .mock{display:none;} 
+  img{display:none;}
+}
