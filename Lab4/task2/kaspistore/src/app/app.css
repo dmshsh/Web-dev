@@ -1,0 +1,32 @@
+.title {
+  text-align: center;
+  margin: 16px 0 10px;
+}
+
+.cats {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 16px 10px;
+}
+
+.cat {
+  border: 1px solid #e5e7eb;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cat.active {
+  background: #111827;
+  color: white;
+  border-color: #111827;
+}
+
+.welcome {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+}

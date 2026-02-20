@@ -1,6 +1,7 @@
-<div class="grid">
-  <app-product-card
-    *ngFor="let p of products"
+<div class="grid" *ngIf="view.length > 0">
+  <app-product-item
+    *ngFor="let p of view"
     [product]="p"
-  ></app-product-card>
+    (delete)="onDelete($event)"
+  ></app-product-item>
 </div>

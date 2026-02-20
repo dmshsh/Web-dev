@@ -13,35 +13,22 @@
   height: 170px;
   object-fit: cover;
   border-radius: 10px;
-  transition: 1s ease;
+  transition: opacity 0.25s ease;
 }
 
-.name {
-  font-size: 16px;
-  margin: 0;
-}
-
-.desc {
-  margin: 0;
-  font-size: 13px;
-  color: #4b5563;
-}
+.name { margin: 0; font-size: 16px; }
+.desc { margin: 0; font-size: 13px; color: #4b5563; }
 
 .meta {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.price {
-  font-weight: 700;
-  color: #16a34a;
-}
-
-.rating {
-  font-size: 13px;
-  color: #111827;
-}
+.price { font-weight: 700; color: #16a34a; }
+.rating, .likes { font-size: 13px; }
 
 .actions {
   display: flex;
@@ -50,10 +37,16 @@
 }
 
 .btn {
+  border: 0;
+  cursor: pointer;
   text-decoration: none;
   background: #1976d2;
-  color: white;
+  color: #fff;
   padding: 6px 10px;
   border-radius: 8px;
   font-size: 12px;
+}
+
+.btn.danger {
+  background: #dc2626;
 }

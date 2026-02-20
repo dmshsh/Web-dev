@@ -1,5 +1,21 @@
-<h1 style="text-align:center; margin: 16px 0;">
-  Online Store
-</h1>
+<h1 class="title">Online Store</h1>
 
-<app-product-list></app-product-list>
+<div class="cats">
+  <button
+    class="cat"
+    *ngFor="let c of categories"
+    (click)="selectCategory(c.id)"
+    [class.active]="c.id === selectedCategoryId"
+  >
+    {{ c.name }}
+  </button>
+</div>
+
+<div *ngIf="selectedCategoryId === null" class="welcome">
+  Select a category to see products 
+</div>
+
+<app-product-list
+  *ngIf="selectedCategoryId !== null"
+  [products]="selectedProducts"
+></app-product-list>
