@@ -1,0 +1,13 @@
+.wrap{ padding: 20px; }
+.kv{ display:grid; gap: 12px; margin-top: 14px; }
+.row{
+  display:flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.08);
+}
+.key{ color: var(--muted); }
+.val{ font-family: var(--mono); }
