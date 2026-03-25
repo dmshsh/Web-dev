@@ -1,0 +1,41 @@
+{
+  "info": {
+    "_postman_id": "ee7d415b-4280-4e6c-b2e2-c5cffd6afd49",
+    "name": "Online shop",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47231672",
+    "_collection_link": "https://go.postman.co/collection/47231672-ee7d415b-4280-4e6c-b2e2-c5cffd6afd49?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "{{baseUrl}}/api/categories",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjMGVjMmVjNC0xOTFlLTQxNWYtODU1ZC00ZWVjODc5MWU2ODMiLCJyb2xlIjoiT1dORVIiLCJvd25lcklkIjoiYzBlYzJlYzQtMTkxZS00MTVmLTg1NWQtNGVlYzg3OTFlNjgzIiwicGhvbmUiOiIrNzcwMDEyMzQ1NjciLCJpYXQiOjE3NjgzMTQzNzAsImV4cCI6MTc2ODkxOTE3MH0.wxaQWjM-chmgN4lWCFiertIh7tOLFCu6XhKMwI7wvgI",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/products/21/",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "products",
+            "21",
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

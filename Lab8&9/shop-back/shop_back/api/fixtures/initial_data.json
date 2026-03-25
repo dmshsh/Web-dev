@@ -1,0 +1,27 @@
+[
+  {"model": "api.category", "pk": 1, "fields": {"name": "Электроника"}},
+  {"model": "api.category", "pk": 2, "fields": {"name": "Одежда"}},
+  {"model": "api.category", "pk": 3, "fields": {"name": "Книги"}},
+  {"model": "api.category", "pk": 4, "fields": {"name": "Спорт"}},
+
+  {"model": "api.product", "pk": 1,  "fields": {"name": "Смартфон",      "price": 299.99, "description": "Флагманский смартфон",   "count": 50,  "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 2,  "fields": {"name": "Ноутбук",        "price": 899.99, "description": "Игровой ноутбук",        "count": 20,  "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 3,  "fields": {"name": "Наушники",       "price": 59.99,  "description": "Беспроводные наушники",  "count": 100, "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 4,  "fields": {"name": "Планшет",        "price": 449.99, "description": "Планшет 10 дюймов",      "count": 30,  "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 5,  "fields": {"name": "Зарядка",        "price": 19.99,  "description": "Быстрая зарядка 65W",    "count": 200, "is_active": true, "category": 1}},
+  {"model": "api.product", "pk": 6,  "fields": {"name": "Футболка",       "price": 15.99,  "description": "Хлопковая футболка",     "count": 150, "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 7,  "fields": {"name": "Джинсы",         "price": 49.99,  "description": "Классические джинсы",    "count": 80,  "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 8,  "fields": {"name": "Кроссовки",      "price": 89.99,  "description": "Беговые кроссовки",      "count": 60,  "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 9,  "fields": {"name": "Куртка",         "price": 129.99, "description": "Зимняя куртка",          "count": 40,  "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 10, "fields": {"name": "Шапка",          "price": 12.99,  "description": "Вязаная шапка",          "count": 120, "is_active": true, "category": 2}},
+  {"model": "api.product", "pk": 11, "fields": {"name": "Гарри Поттер",   "price": 14.99,  "description": "Полное издание",         "count": 75,  "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 12, "fields": {"name": "Чистый код",     "price": 34.99,  "description": "Роберт Мартин",          "count": 45,  "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 13, "fields": {"name": "Дюна",           "price": 18.99,  "description": "Фантастический роман",   "count": 55,  "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 14, "fields": {"name": "Атомные привычки","price": 16.99, "description": "Книга по саморазвитию",  "count": 90,  "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 15, "fields": {"name": "System Design",  "price": 44.99,  "description": "Алекс Сюй",             "count": 35,  "is_active": true, "category": 3}},
+  {"model": "api.product", "pk": 16, "fields": {"name": "Гантели",        "price": 39.99,  "description": "Разборные гантели 20кг", "count": 25,  "is_active": true, "category": 4}},
+  {"model": "api.product", "pk": 17, "fields": {"name": "Коврик для йоги","price": 24.99,  "description": "Нескользящий коврик",   "count": 70,  "is_active": true, "category": 4}},
+  {"model": "api.product", "pk": 18, "fields": {"name": "Протеин",        "price": 54.99,  "description": "Сывороточный протеин",   "count": 85,  "is_active": true, "category": 4}},
+  {"model": "api.product", "pk": 19, "fields": {"name": "Скакалка",       "price": 9.99,   "description": "Скоростная скакалка",   "count": 110, "is_active": true, "category": 4}},
+  {"model": "api.product", "pk": 20, "fields": {"name": "Бутылка воды",   "price": 14.99,  "description": "Термобутылка 1л",       "count": 95,  "is_active": true, "category": 4}}
+]
